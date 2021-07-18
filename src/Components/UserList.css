@@ -1,0 +1,33 @@
+.backg {
+    background-color:rosybrown;
+    bottom: 0;
+    left: -50%;
+    position: fixed; 
+    right: -50%; 
+    top: 0;
+    z-index: -1;   
+}
+
+.all {
+    display: flex;
+    flex-wrap: wrap;
+}
+.userCard {
+    display: flex;
+    width: 500px;
+    margin: 20px;
+    background-color:rgb(204, 204, 185);
+    border-radius: 0.25em;
+    box-shadow: 10px 10px 10px rgba(102, 2, 122, 0.25);
+    transform: translate(30%, 30%);
+    transition:1s;
+}
+.userCard:hover{
+    transform:scale(1.1);
+    background:rgb(226, 226, 217);
+}
+
+.profileBody {
+    padding: 20px;
+}
+
